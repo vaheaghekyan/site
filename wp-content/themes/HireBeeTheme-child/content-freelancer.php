@@ -19,7 +19,6 @@
 			<!-- freelancer meta above desc-->
 			<div class="freelancer-meta cf">
 				<div class="freelancer-rate"><?php the_hrb_user_rate( $user ); ?></div>
-				
 				<div class="freelancer-success"><?php the_hrb_user_success_rate( $user ); ?></div>
 				<div class="freelancer-portfolio">
 					<?php if ( $user->user_url ): ?>
